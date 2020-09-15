@@ -1,0 +1,26 @@
+content in index.ejs
+<!-- 1. copy from bootstrap web; starter template --> 
+<!-- 2. cut the earlier part and copy to head.ejs -->
+<!-- 3. under <head>, put delimiter like this: <%- include('partials/head') %> -->
+<!-- 4. cut the script part to script.ejs, file create under partials -->
+<!-- 5. whatever in partials, panggil guna delimiter -->
+
+insert font dlm project
+select font on GOogle font: 
+Roboto Condensed
+select the style in import section, ambil yg tengah je.
+create file under css 
+add this: 
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+insert navbar
+bootstrap - components- navbar
+put this: in index.ejs, at the hello world part, under body
+    <div class="container">
+copy one of the listed navbar style paste under it.
+
+if guna, navbar-dark, font color auto contrast
+
+syntax dlm bootstrap, masuk in class
